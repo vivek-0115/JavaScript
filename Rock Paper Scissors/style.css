@@ -1,0 +1,86 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    padding: 0 60px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #68da8e;
+}
+#game-symbol{
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    padding: 30px;
+    gap: 50px;
+
+    & .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 5px solid transparent;
+        transition: all 0.2s ease;
+    }
+
+    & #rock{
+        color: #4D3833;
+        background-color: #D7CAC7;
+        &:hover{
+            border-color: #AF9A95;
+        }
+    }
+    & #paper{
+        background-color:#f6f6f6;
+        color: #d0d0d0;
+        &:hover{
+            border-color: 	#e1e1e1;
+        }
+    }
+
+    & #scissors{
+        background-color: #d5cdf3;
+        color: 	#bba8ff;
+        &:hover{
+            border-color: #c6b7fe;
+        }
+    }
+}
+
+#score{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: 	#818181;
+
+    & div {
+        text-align: center;
+        padding: 0 30px;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1px;
+
+        & span{
+            font-size: 40px;
+            color: 	#86e1fa;
+        }
+    }
+}
+#message{
+    & p{
+        background-color: #f47758;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}
