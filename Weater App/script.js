@@ -61,4 +61,4 @@ searchBtn.addEventListener('click', ()=>{
         alert('Please enter valid city name.')
     }
 })
-// checkWeather('patna')
+checkWeather('patna')
