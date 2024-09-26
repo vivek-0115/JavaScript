@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <script src="https://kit.fontawesome.com/3a3147267e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="h-screen bg-gradient-to-br from-[#e0c3fc] to-[#8ec5fc] p-2">
+        <div class="mx-auto mt-20 bg-white rounded-md p-3 w-[95%] md:w-[500px] border-[1px]">
+            <div class="flex">
+                <h2 class="text-xl font-bold text-slate-800">To Do List</h2>
+                <img src="todo.gif" class="w-8">
+            </div>
+            <div class="py-2">
+                <form onsubmit="addTask(event)">
+                    <input type="text" placeholder="Add Your Text" class="w-[75%] tracking-wider font-bold text-[#e0c3fc] outline-0 border border-[#e0c3fc] h-8 px-2 rounded-full">
+                    <button type="submit" class="rounded-full bg-[#e0c3fc] px-6 h-8">Add</button>
+                </form>
+            </div>
+            <div>
+                <ul id="taskList">
+                </ul>
+            </div>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
