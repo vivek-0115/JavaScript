@@ -13,3 +13,4 @@ Feel free to browse through and see my progress as I continue learning!
 - [Tic Tac Toe](https://vivek-0115.github.io/JavaScript/Tic%20Tac%20Toe/index.html)
 - [Weather App](https://vivek-0115.github.io/JavaScript/Weather%20App/index.html)
 - [Rock Paper Scissors](https://vivek-0115.github.io/JavaScript/Rock%20Paper%20Scissors/index.html)
+- [To Do App](https://vivek-0115.github.io/JavaScript/To%20Do/index.html)
